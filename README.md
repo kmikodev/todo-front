@@ -2,7 +2,6 @@
 
 Una aplicación moderna de gestión de tareas construida con React, TypeScript y Tailwind CSS. Diseñada para ser intuitiva, eficiente y completamente funcional para uso en producción.
 
-![TodoApp Pro](https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200&h=400&fit=crop)
 
 ## 🌐 Demo en Vivo
 
