@@ -2,7 +2,7 @@ import { config } from '../services';
 import { authService } from '../services/auth.service';
 import { mockAuthService } from '../services/auth.service.mock';
 
-const BASE_URL = 'http://localhost:3000/api' //'https://todolistdb-api.cap.c2developers.com/api';
+const BASE_URL = 'https://todolistdb-api.cap.c2developers.com/api';
 
 export class ApiError extends Error {
   constructor(public status: number, message: string) {

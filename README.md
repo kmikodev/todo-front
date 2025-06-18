@@ -4,6 +4,14 @@ Una aplicación moderna de gestión de tareas construida con React, TypeScript y
 
 ![TodoApp Pro](https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200&h=400&fit=crop)
 
+## 🌐 Demo en Vivo
+
+**🚀 [Ver TodoApp Pro en Acción](https://puzzle-e4848.firebaseapp.com/)**
+
+Prueba la aplicación completa con usuarios demo incluidos. ¡No necesitas registrarte!
+
+---
+
 ## ✨ Características Principales
 
 ### 🎯 **Gestión de Tareas Completa**
@@ -67,6 +75,11 @@ Una aplicación moderna de gestión de tareas construida con React, TypeScript y
 - 🍞 **React Toastify** - Notificaciones elegantes
 - 🎭 **Tailwind Components** - Componentes personalizados
 
+### **Despliegue**
+- 🔥 **Firebase Hosting** - Hosting rápido y confiable
+- 🌐 **CDN Global** - Distribución mundial
+- 🔒 **HTTPS** - Conexión segura
+
 ## 📦 Instalación y Configuración
 
 ### **Prerrequisitos**
@@ -104,15 +117,21 @@ VITE_APP_VERSION=1.0.0
 
 ## 🎮 Uso de la Aplicación
 
+### **🌐 Acceso Rápido**
+
+**[🚀 Abrir TodoApp Pro](https://puzzle-e4848.firebaseapp.com/)**
+
 ### **🔐 Autenticación**
 
-La aplicación incluye usuarios demo para pruebas:
+La aplicación incluye usuarios demo para pruebas inmediatas:
 
-| Usuario | Email | Contraseña | Rol |
-|---------|-------|------------|-----|
-| Administrador | admin@todoapp.com | admin123 | Admin |
-| Usuario Demo | user@todoapp.com | user123 | Usuario |
-| María García | maria@todoapp.com | maria123 | Usuario |
+| Usuario | Email | Contraseña | Rol | Acceso Directo |
+|---------|-------|------------|-----|----------------|
+| Administrador | admin@todoapp.com | admin123 | Admin | 🔑 Acceso completo |
+| Usuario Demo | user@todoapp.com | user123 | Usuario | 👤 Usuario estándar |
+| María García | maria@todoapp.com | maria123 | Usuario | 👤 Usuario estándar |
+
+> 💡 **Tip**: En la página de login, haz clic en "Mostrar" en la sección de usuarios demo para acceso con un clic.
 
 ### **📋 Gestión de Tareas**
 
@@ -230,12 +249,40 @@ npm run type-check   # Verificar tipos TypeScript
 
 ## 🚀 Despliegue
 
+### **🌐 Aplicación en Vivo**
+
+La aplicación está desplegada y disponible en:
+**[https://puzzle-e4848.firebaseapp.com/](https://puzzle-e4848.firebaseapp.com/)**
+
+### **🔥 Firebase Hosting**
+
+La aplicación utiliza Firebase Hosting para:
+- ✅ **Despliegue automático** desde el repositorio
+- ⚡ **CDN global** para carga rápida
+- 🔒 **HTTPS automático** para seguridad
+- 📱 **PWA ready** para instalación móvil
+
 ### **Build de Producción**
 
 ```bash
 npm run build
 ```
 
+### **Despliegue Manual**
+
+```bash
+# Instalar Firebase CLI
+npm install -g firebase-tools
+
+# Login en Firebase
+firebase login
+
+# Inicializar proyecto
+firebase init hosting
+
+# Desplegar
+firebase deploy
+```
 
 ## 🧪 Testing
 
@@ -260,6 +307,7 @@ npm run build
 - ✅ Gestión segura de tokens
 - ✅ Protección de rutas
 - ✅ Headers de seguridad
+- 🔒 **HTTPS obligatorio** en producción
 
 ### **Buenas Prácticas**
 
@@ -300,6 +348,12 @@ npm run build
 - 📱 App móvil nativa
 - 🔄 Sincronización offline
 
+## 📞 Soporte y Contacto
+
+### **🌐 Enlaces Importantes**
+- 🚀 **App en Vivo**: [https://puzzle-e4848.firebaseapp.com/](https://puzzle-e4848.firebaseapp.com/)
+- 📂 **Repositorio**: [GitHub](https://github.com/kmikodev/todo-front)
+- 🐛 **Reportar Bugs**: [GitHub Issues](https://github.com/kmikodev/todo-front/issues)
 
 ### **Contacto**
 - 📧 Email: jcardonavillegas@gmail.com
@@ -315,6 +369,6 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para
 
 **🚀 ¡Hecho con ❤️ para mejorar tu productividad!**
 
-[⭐ Star en GitHub](https://github.com/kmikodev/todo-front) • [🐛 Reportar Bug](https://github.com/kmikodev/todo-front/issues) • [💡 Solicitar Feature](https://github.com/kmikodev/todo-front/issues)
+**[🌐 Probar Ahora](https://puzzle-e4848.firebaseapp.com/)** • **[⭐ Star en GitHub](https://github.com/kmikodev/todo-front)** • **[🐛 Reportar Bug](https://github.com/kmikodev/todo-front/issues)** • **[💡 Solicitar Feature](https://github.com/kmikodev/todo-front/issues)**
 
 </div>
